@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Quiz_2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:includeFontPadding="false"
+        android:text="SBS Quiz"
+        android:textAppearance="@style/TextAppearance.Material3.DisplayMedium"
+        android:textAlignment="center"
+        android:textColor="#B9345A"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/scoreTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Score : 00"
+            android:layout_weight="1"
+            android:fontFamily="serif"
+            android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+            android:gravity="center"
+            android:textColor="@color/Green"/>
+
+        <TextView
+            android:id="@+id/countTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1/10"
+            android:layout_weight="1"
+            android:fontFamily="serif"
+            android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+            android:gravity="center"
+            android:textColor="@color/Green"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/timerTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Timer-00"
+        android:textColor="@color/red"
+        android:textAlignment="center"
+        android:fontFamily="serif"
+        android:textAppearance="@style/TextAppearance.Material3.DisplaySmall"
+        android:includeFontPadding="false"/>
+
+    <TextView
+        android:id="@+id/questionTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Es App Dev 2205"
+        android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+        android:fontFamily="serif"
+        android:background="@drawable/button_design"
+        android:textAlignment="center"
+        android:includeFontPadding="false"
+        android:padding="8dp"
+        android:textColor="@color/white"
+        android:layout_margin="15dp"/>
+
+    <RadioGroup
+        android:id="@+id/quizGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/option1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Option 1"
+            android:fontFamily="serif"
+            android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
+            android:background="@drawable/button_design"
+            android:includeFontPadding="false"
+            android:textColor="@color/white"
+            android:layout_margin="8dp"/>
+
+        <RadioButton
+            android:id="@+id/option2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Option 1"
+            android:fontFamily="serif"
+            android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
+            android:background="@drawable/button_design"
+            android:includeFontPadding="false"
+            android:textColor="@color/white"
+            android:layout_margin="8dp"/>
+
+        <RadioButton
+            android:id="@+id/option3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Option 1"
+            android:fontFamily="serif"
+            android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
+            android:background="@drawable/button_design"
+            android:includeFontPadding="false"
+            android:textColor="@color/white"
+            android:layout_margin="8dp"/>
+
+        <RadioButton
+            android:id="@+id/option4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Option 1"
+            android:fontFamily="serif"
+            android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
+            android:background="@drawable/button_design"
+            android:includeFontPadding="false"
+            android:textColor="@color/white"
+            android:layout_margin="8dp"/>
+
+
+    </RadioGroup>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/nextBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:background="@drawable/button_design"
+        android:text="Next Button"
+        android:fontFamily="serif"
+        android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+        android:textColor="@color/white"
+        android:includeFontPadding="false"/>
+
+
+
+
+
+</LinearLayout>
